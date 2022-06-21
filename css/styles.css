@@ -25,6 +25,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+header {
+    border: 1px solid #ECECEC;
+}
+
 /* logo */
 .colortext {
     color:var(--color-accent);
@@ -44,6 +48,8 @@ body {
 
 /* herro */
 .hero {
+    margin-top: 0;
+    margin-bottom: 0;
     background-color: var(--color-fon);
 }
 .hero-title {
