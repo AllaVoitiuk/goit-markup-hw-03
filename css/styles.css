@@ -46,6 +46,18 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+/* Контейнер */
+.container {
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 /* button */
 .button {
