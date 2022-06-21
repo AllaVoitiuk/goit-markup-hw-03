@@ -1,0 +1,219 @@
+:root {
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --color-accent: #2196F3;
+    --color-fon: #2F303A;
+    --white-color: #FFFFFF;
+    --secondary-bg-color: #F5F4FA;
+    --button-primary-focus: #188CE8;
+    }
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+/* logo */
+.colortext {
+    color:var(--color-accent);
+}
+
+.logo {
+    color: var(--title-text-color);
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.footer.logo {
+    color: var(--white-color);
+}
+
+/* herro */
+.hero {
+    background-color: var(--color-fon);
+}
+.hero-title {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+/* button */
+.button {
+    color: var(--white-color);
+    background-color: var(--color-accent);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    cursor: pointer;
+}
+.button.primary {
+    color: var(--white-color);
+    background-color: var(--color-accent);
+    cursor: pointer;
+}
+.button.primary:hover,
+.button.primary:focus {
+    color: var(--button-primary-focus);
+}
+
+/* button portfolio */
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bg-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+    color: var(--white-color);
+    background-color: var(--color-accent);
+}
+
+.button.secondary.active {
+    background-color: var(--color-accent);
+    color: var(--white-color);
+}
+
+ul {
+    list-style: none;
+}
+
+/* title */
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.feature-list .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.team .title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.section-link .title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em; 
+}
+
+.section-link .text {
+    color: var(--primary-text-color);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.list .section-link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* link */
+.link {
+    color: var(--title-text-color);
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+} 
+
+.link:hover,
+.link:focus {
+    color: var(--color-accent);
+}
+
+.wrapper .wrapper-link {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.wrapper-link:hover,
+.wrapper-link:focus {
+    color: var(--color-accent);
+} 
+
+.site-nav .link.current {
+    color: var(--color-accent);
+}
+
+.first-link {
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    line-height: 1.7;
+    text-decoration: none;
+}
+
+.adr-nav .adr-link {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.adr-link:hover,
+.adr-link:focus {
+    color: var(--color-accent);
+}
+
+/* text */
+.feature-list .text {
+    line-height: 1.7;
+}
+
+.team .text {
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+/* footer */
+footer {
+    color: var(--white-color);
+    background-color: var(--color-fon);
+}
+
+     
+
+
