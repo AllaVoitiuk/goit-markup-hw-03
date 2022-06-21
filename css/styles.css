@@ -50,6 +50,8 @@ header {
 .hero {
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 200px;
+    min-width: 696px;
     background-color: var(--color-fon);
 }
 .hero-title {
