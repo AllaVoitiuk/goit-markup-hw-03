@@ -80,7 +80,7 @@ header {
     padding-bottom: 94px;
 } */
 
-.feature-list-inner {
+.feature-list.inner {
     display: flex;
     /* margin: -15px; */
 }
@@ -258,6 +258,7 @@ ul {
 /* text */
 .feature-list .text {
     display: flex;
+    flex-direction: column;
     text-align: left;
 
     line-height: 1.7;
