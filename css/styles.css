@@ -51,6 +51,7 @@ header {
     margin-top: 0;
     margin-bottom: 0; 
     background-color: var(--color-fon);
+    padding-top: 200px;
     text-align: center;
 }
 .hero-title {
