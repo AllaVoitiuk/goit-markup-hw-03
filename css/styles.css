@@ -25,9 +25,16 @@ body {
     letter-spacing: 0.03em;
 }
 
-header {
+.header {
     border-bottom: 1px solid #ECECEC;
 }
+
+/* site nav */
+.nav.item {
+    display: flex;
+    
+}
+.site-nav
 
 /* logo */
 .colortext {
