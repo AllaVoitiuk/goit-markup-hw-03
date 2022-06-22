@@ -82,7 +82,13 @@ header {
 
 .feature-list-inner {
     display: flex;
+    margin: -15px;
+}
 
+.benefits-inner {
+    display: flex;
+    flex-basis: 25%;
+    padding: 15px;
 }
 
 /* button */
