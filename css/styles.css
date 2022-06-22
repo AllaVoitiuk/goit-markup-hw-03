@@ -82,12 +82,14 @@ header {
 
 .feature-list.inner {
     display: flex;
+    
     /* margin: -15px; */
 }
 
 .benefits-inner {
     display: flex;
-    flex-basis: 25%;
+    flex-direction: column;
+    /* flex-basis: 25%; */
     /* padding: 15px; */
 }
 
@@ -260,6 +262,7 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: left;
+    width: 270px;
 
     line-height: 1.7;
 }
