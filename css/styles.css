@@ -80,6 +80,11 @@ header {
     padding-bottom: 94px;
 } */
 
+.feature-list-inner {
+    display: flex;
+
+}
+
 /* button */
 .button {
     color: var(--white-color);
@@ -141,6 +146,10 @@ ul {
 }
 
 .feature-list .title {
+    display: flex;
+    text-align: left;
+
+
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -242,6 +251,9 @@ ul {
 
 /* text */
 .feature-list .text {
+    display: flex;
+    text-align: left;
+
     line-height: 1.7;
 }
 
