@@ -27,7 +27,7 @@ body {
 
 /* Контейнер */
 .container {
-    max-width: 1200px;
+    max-width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 200px;
@@ -38,8 +38,8 @@ body {
     border-bottom: 1px solid #ECECEC;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
+    width: 100%;
+
 }
 
 /* .header-menu {
@@ -65,7 +65,7 @@ body {
 }
 
 .nav-item {
-    display: block;
+    display: flex;
     width: 145px;
     height: 31px;
     margin-left: 215px;
@@ -283,7 +283,7 @@ ul {
 .adr-nav {
     display: flex;
     margin-left: auto;
-    
+
 }
 
 .adr-nav .adr-link {
