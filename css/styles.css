@@ -52,6 +52,7 @@ body {
 .site-nav {
     display: flex;
     width: 294px;
+    margin-left: 93px;
 }
 
 .site-nav .item {
