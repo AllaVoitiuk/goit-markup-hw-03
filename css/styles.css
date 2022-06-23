@@ -39,7 +39,7 @@ body {
 }
 
 .header-menu {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
