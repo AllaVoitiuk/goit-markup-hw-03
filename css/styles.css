@@ -302,6 +302,9 @@ ul {
 .nav-link {
     margin-right: 50px;
 }
+.nav-link:last-child {
+    margin-right: 0px;
+}
 
 /* text */
 .feature-list .text {
