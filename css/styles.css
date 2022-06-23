@@ -190,6 +190,10 @@ ul {
     text-align: center;
 }
 
+.feature-list {
+    display: flex;
+}
+
 .feature-list .title {
     display: flex;
     text-align: left;
