@@ -39,6 +39,7 @@ body {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 80px;
 
 }
 
@@ -112,10 +113,9 @@ body {
     text-transform: uppercase;
 }
 
-/* .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-} */
+ .section {
+    display: flex;
+} 
 
 .feature-list.inner {
     display: flex;
