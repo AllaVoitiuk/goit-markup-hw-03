@@ -283,7 +283,9 @@ ul {
     color: var(--color-accent);
 }
 
-
+.adr-nav .nav-link {
+    margin-right: 50px;
+}
 
 /* text */
 .feature-list .text {
