@@ -268,14 +268,6 @@ ul {
     display: flex;
     margin-left: auto;
 }
-.nav-link {
-    margin-right: 50px;
-
-}
-
-.adr-nav .nav-link:last-child {
-    margin-right: 0px;
-} 
 
 .adr-nav .adr-link {
     
