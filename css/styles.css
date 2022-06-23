@@ -36,14 +36,18 @@ body {
 
 .header {
     border-bottom: 1px solid #ECECEC;
-}
-
-.header-menu {
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
 }
+
+/* .header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+} */
 /* site nav */
 .site-nav {
     display: flex;
@@ -103,7 +107,7 @@ body {
 
 .feature-list.inner {
     display: flex;
-    flex-basis: calc(100%/4-90px);
+    flex-basis: 100%;
     margin-right: 30px;
        /* margin: -15px; */
 }
