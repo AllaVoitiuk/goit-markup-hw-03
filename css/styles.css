@@ -51,14 +51,24 @@ body {
 /* site nav */
 .site-nav {
     display: flex;
+    width: 294px;
 }
 
 .site-nav .item {
     margin-right: 50px;
+    width: auto;
 }
 
 .site-nav .item:last-child {
     margin-right: 0px;
+}
+
+.nav-item {
+    display: block;
+    width: 145px;
+    height: 31px;
+    margin-left: 215px;
+    margin-bottom: 25px;
 }
 
 /* logo */
