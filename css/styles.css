@@ -89,15 +89,15 @@ body {
 
 .feature-list.inner {
     display: flex;
-    
-    /* margin: -15px; */
+    flex-basis: calc(100%/4-90px);
+    margin-right: 30px;
+       /* margin: -15px; */
 }
 
 .benefits-inner {
     display: flex;
     flex-direction: column;
-    /* flex-basis: 25%; */
-    /* padding: 15px; */
+    
 }
 
 /* button */
