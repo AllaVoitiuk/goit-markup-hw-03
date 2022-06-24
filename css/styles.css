@@ -121,6 +121,18 @@ body {
     background-color: var(--secondary-bg-color);
 }
 
+.card {
+    margin-top: 50px;
+}
+
+.card-content {
+    margin-top: 30px;
+}
+
+.card .text {
+    margin-top: 10px;
+}
+
 .feature-list.inner {
     flex-basis: 100%;
     margin-right: auto;
