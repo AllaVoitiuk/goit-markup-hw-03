@@ -190,11 +190,15 @@ ul {
 
 .feature-list {
     display: flex;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .feature-list .title {
     display: flex;
     text-align: left;
+    margin-top: 0px;
+    margin-right: 30px;
 
 
     color: var(--title-text-color);
@@ -316,13 +320,21 @@ ul {
     flex-direction: column;
     text-align: left;
     flex-basis: 270px;
+    margin-top: 10px;
+    margin-right: 30px;
 
     line-height: 1.7;
 }
 
+.feature-list .text:last-child {
+    margin-right: 0px;
+}
+
+
 .team .text {
     font-size: 16px;
     line-height: 1.19;
+    
 }
 
 /* footer */
