@@ -367,6 +367,11 @@ p {
 
 .scope-item {
     flex-basis: auto;
+    padding-right: 30px;
+}
+
+.scope-item:last-child {
+    padding-right: 0;
 }
 
 img {
