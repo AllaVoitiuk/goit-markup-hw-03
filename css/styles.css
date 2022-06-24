@@ -88,6 +88,7 @@ body {
 
 .footer.logo {
     color: var(--white-color);
+    margin-top: 60px;
 }
 
 /* herro */
@@ -352,8 +353,8 @@ ul {
     line-height: 1.7;
     text-decoration: none;
 
-    display: flex;
-    margin-top: 60px;
+    /* display: flex;
+    margin-top: 60px; */
 }
 
 .adr-nav {
