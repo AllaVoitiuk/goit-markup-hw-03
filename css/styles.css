@@ -440,6 +440,14 @@ footer {
     margin-top: 60px;
 }
 
+.footer-contact {
+    display: flex;
+    width: 231px;
+    margin-left: 15px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
 
      
 
