@@ -118,15 +118,20 @@ body {
 
 .feature-list.inner {
     flex-basis: 100%;
-    margin-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
        /* margin: -15px; */
 }
 
 .benefits-inner {
     display: flex;
     flex-direction: column;
-    
+    margin-right: 30px;
 }
+
+.benefits-inner:last-child {
+    margin-right: 0px;
+} 
 
 /* button */
 .button {
@@ -194,13 +199,16 @@ ul {
     margin-left: auto;
 }
 
-.feature-list .title {
+.benefits-inner .title {
     display: flex;
     text-align: left;
     margin-top: 0px;
     margin-right: 30px;
 
+}
 
+.feature-list .title {
+   
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -315,7 +323,7 @@ ul {
 }
 
 /* text */
-.feature-list .text {
+.benefits-inner .text {
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -324,10 +332,6 @@ ul {
     margin-right: 30px;
 
     line-height: 1.7;
-}
-
-.feature-list .text:last-child {
-    margin-right: 0px;
 }
 
 
