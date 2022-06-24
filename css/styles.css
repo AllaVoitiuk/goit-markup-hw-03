@@ -129,6 +129,14 @@ body {
     padding: 30px;
 }
 
+.card-thumb {
+    margin-right: 30px;
+}
+
+.card-thumb:last-child {
+    margin-right: 0;
+}
+
 .card .text {
     margin-top: 10px;
 }
