@@ -120,6 +120,8 @@ body {
     flex-basis: 100%;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 96px;
+    height: 127px;
        /* margin: -15px; */
 }
 
