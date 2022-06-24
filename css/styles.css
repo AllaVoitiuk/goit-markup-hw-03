@@ -88,7 +88,6 @@ body {
 
 .footer.logo {
     color: var(--white-color);
-    margin-top: 60px;
 }
 
 /* herro */
@@ -131,6 +130,7 @@ body {
 
 .card-content {
     padding: 30px;
+    text-align: center;
 }
 
 /* .card-thumb {
@@ -433,6 +433,8 @@ img {
 footer {
     color: var(--white-color);
     background-color: var(--color-fon);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-item {
@@ -442,6 +444,7 @@ footer {
     margin-left: 15px;
     align-items: flex-start;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .footer-contact {
