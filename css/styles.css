@@ -116,6 +116,11 @@ body {
     display: flex;
 } 
 
+.section-card {
+    display: flex;
+    background-color: var(--secondary-bg-color);
+}
+
 .feature-list.inner {
     flex-basis: 100%;
     margin-right: auto;
@@ -226,6 +231,23 @@ ul {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+}
+
+.team {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    display: flex;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+
+team > .card-item {
+    flex-basis: calc(100/4- 30px);
+    margin-top: 30px;
+    margin-left: 30px;
+   
 }
 
 .team .title {
