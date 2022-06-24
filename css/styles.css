@@ -131,9 +131,9 @@ body {
     margin-right: 30px;
 }
 
-.benefits-inner:last-child {
+/* .benefits-inner:last-child {
     margin-right: 0px;
-} 
+}  */
 
 /* button */
 .button {
@@ -200,6 +200,11 @@ ul {
     margin-right: auto;
     margin-left: auto;
 }
+
+.feature-list:last-child {
+    margin-right: 0;
+}
+
 
 .benefits-inner .title {
     display: flex;
