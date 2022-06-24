@@ -437,7 +437,7 @@ footer {
     height: 31px;
     margin-left: 15px;
     align-items: flex-start;
-    margin-top: 60px;
+    margin-top: 0;
 }
 
 .footer-contact {
