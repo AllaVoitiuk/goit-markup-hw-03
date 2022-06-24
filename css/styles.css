@@ -351,6 +351,7 @@ ul {
     font-style: normal;
     line-height: 1.7;
     text-decoration: none;
+    margin-top: 60px;
 }
 
 .adr-nav {
@@ -437,7 +438,7 @@ footer {
     height: 31px;
     margin-left: 15px;
     align-items: flex-start;
-    margin-top: 0;
+    margin-top: 0px;
 }
 
 .footer-contact {
