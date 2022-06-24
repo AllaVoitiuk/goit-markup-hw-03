@@ -126,7 +126,7 @@ body {
 }
 
 .card-content {
-    margin-top: 30px;
+    padding: 30px;
 }
 
 .card .text {
