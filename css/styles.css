@@ -27,7 +27,7 @@ body {
 
 /* Контейнер */
 .container {
-    max-width: 1230px;
+    max-width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: 200px;
@@ -351,6 +351,24 @@ ul {
     font-size: 16px;
     line-height: 1.19;
     
+}
+
+.scope-set {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.scope-item {
+    flex-basis: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* footer */
