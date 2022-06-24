@@ -431,6 +431,15 @@ footer {
     background-color: var(--color-fon);
 }
 
+.footer-item {
+    display: flex;
+    width: 145px;
+    height: 31px;
+    margin-left: 15px;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
 
      
 
