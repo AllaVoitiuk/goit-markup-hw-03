@@ -359,10 +359,9 @@ p {
 
 .scope-set {
     display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+     /* list-style: none; */
     margin-top: 50px;
+    justify-content: center
 }
 
 .scope-item {
