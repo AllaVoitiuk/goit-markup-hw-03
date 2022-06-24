@@ -117,7 +117,6 @@ body {
 } 
 
 .feature-list.inner {
-    display: flex;
     flex-basis: 100%;
     margin-right: 30px;
        /* margin: -15px; */
@@ -316,7 +315,7 @@ ul {
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 270px;
+    flex-basis: 270px;
 
     line-height: 1.7;
 }
