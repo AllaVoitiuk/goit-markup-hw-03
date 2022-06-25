@@ -488,6 +488,11 @@ img {
 .portfolio-content .text {
     margin-top: 4px;
 }
+
+.portfolio-content .title {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 /* footer */
 footer {
     color: var(--white-color);
