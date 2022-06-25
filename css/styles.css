@@ -443,9 +443,12 @@ img {
     display: flex;
 } 
 
-/* .button-list {
-    display: flex;
-} */
+.button-list {
+    margin-right: 8px;
+} 
+.button-list:last-child {
+    margin-right: 0px;
+}
 
 /* footer */
 footer {
