@@ -151,7 +151,7 @@ img {
 }
 
 .section-card {
-    display: flex;
+    /* display: flex; */
     background-color: var(--secondary-bg-color);
 }
 
