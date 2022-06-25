@@ -198,6 +198,7 @@ body {
     cursor: pointer;
     text-decoration: none;
 
+    display: inline-block;
     border-radius: 4px;
     padding: 6px 22px;
 }
