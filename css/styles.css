@@ -439,13 +439,13 @@ img {
     justify-content: center;
 }
 
-/* .portfolio-list .list {
+.portfolio-list .list {
+    display: flex;
+} 
+
+/* .button-list {
     display: flex;
 } */
-
-.button-list {
-    display: flex;
-}
 
 /* footer */
 footer {
