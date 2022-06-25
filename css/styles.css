@@ -475,7 +475,6 @@ img {
 }
 
 .portfolio-item {
-    padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
 }
@@ -490,7 +489,7 @@ img {
 }
 
 .portfolio-content .title {
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 0px;
 }
 /* footer */
