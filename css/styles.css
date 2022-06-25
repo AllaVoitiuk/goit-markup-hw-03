@@ -429,6 +429,14 @@ img {
     height: auto;
 }
 
+.portfolio-list {
+    display: flex;
+    flex-basis: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 94px;
+}
+
 /* footer */
 footer {
     color: var(--white-color);
