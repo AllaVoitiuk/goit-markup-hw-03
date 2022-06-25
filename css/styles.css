@@ -474,6 +474,20 @@ img {
     margin-bottom: 0px;
 }
 
+.portfolio-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.portfolio-content {
+    padding: 0px;
+    text-align: start;
+}
+
+.portfolio-content .text {
+    margin-top: 4px;
+}
 /* footer */
 footer {
     color: var(--white-color);
