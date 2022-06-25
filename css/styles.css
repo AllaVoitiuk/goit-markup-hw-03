@@ -93,9 +93,9 @@ img {
 
 .nav-item {
     display: flex;
-    width: 145px;
+    /* width: 145px;
     height: 31px;
-    margin-left: 15px;
+    margin-left: 15px; */
     align-items: center;
 }
 
