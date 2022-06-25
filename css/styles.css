@@ -457,10 +457,10 @@ img {
     margin: 0;
     list-style: none;
     margin-top: 50px
+    width: calc(100%-60px)/3;
 }
 
 .portfolio-link {
-    width: calc(100%-60px)/3;
     margin-right: 30px;
     margin-bottom: 30px;
 }
