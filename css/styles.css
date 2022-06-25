@@ -435,6 +435,16 @@ img {
     margin-right: auto;
     margin-left: auto;
     margin-top: 94px;
+    margin-bottom: 16px;
+    justify-content: center;
+}
+
+/* .portfolio-list .list {
+    display: flex;
+} */
+
+.button-list {
+    display: flex;
 }
 
 /* footer */
