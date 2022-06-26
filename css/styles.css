@@ -470,8 +470,12 @@ img {
 /* .button-list {
     margin-right: 8px;
 }  */
-.button-list:not(:last-child(3n)) {
+.button-list {
   margin-right: 8px;
+}
+
+.button-list:last-child {
+  margin-right: 0px;
 }
 
 .portfolio-card .list {
