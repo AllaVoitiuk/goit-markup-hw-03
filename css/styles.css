@@ -153,6 +153,8 @@ img {
 .section-card {
     /* display: flex; */
     background-color: var(--secondary-bg-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .card {
@@ -512,6 +514,7 @@ footer {
     background-color: var(--color-fon);
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 
 .footer-item {
