@@ -384,7 +384,7 @@ img {
 
 .adr-nav {
   display: flex;
-  /* margin-left: auto; */
+  margin-left: auto;
   align-items: flex-end;
 }
 
