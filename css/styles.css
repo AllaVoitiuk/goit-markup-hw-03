@@ -103,6 +103,39 @@ img {
   align-items: center;
 }
 
+.adr-nav {
+  display: flex;
+  margin-left: auto;
+  align-items: flex-end;
+}
+
+.nav-link:not(:last-child) {
+  margin-right: 50px;
+}
+
+.adr-nav .adr-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.adr-link:hover,
+.adr-link:focus {
+  color: var(--color-accent);
+}
+
+.nav-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: auto;
+}
+
+.nav-link:last-child {
+  margin-right: 15px;
+}
+
 /* logo */
 .colortext {
   color: var(--color-accent);
@@ -382,38 +415,6 @@ img {
   text-decoration: none;
 }
 
-.adr-nav {
-  display: flex;
-  margin-left: auto;
-  align-items: flex-end;
-}
-
-.nav-link:not(:last-child) {
-  margin-right: 50px;
-}
-
-.adr-nav .adr-link {
-  color: var(--primary-text-color);
-  font-weight: 500;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-}
-
-.adr-link:hover,
-.adr-link:focus {
-  color: var(--color-accent);
-}
-
-.nav-link {
-  margin-right: 50px;
-  width: auto;
-}
-
-.nav-link:last-child {
-  margin-right: 15px;
-}
-
 /* text */
 
 .benefits-inner .text {
@@ -485,7 +486,7 @@ img {
 
 .portfolio-link {
   display: flex;
-  margin-right: 30px;
+  margin-right: auto;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
   flex-basis: calc(100% / 3 -60px);
