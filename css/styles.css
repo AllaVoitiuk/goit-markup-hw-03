@@ -288,7 +288,6 @@ img {
 
 .team {
   padding: 0;
-
   list-style: none;
 
   display: flex;
@@ -296,9 +295,13 @@ img {
   margin-right: -30px;
 }
 
+.team:last-child {
+  margin-right: 0;
+}
+
 .team > .card-item {
   background-color: var(--white-color);
-  flex-basis: calc((100% -120px) / 4);
+  flex-basis: calc((100% - 30px) / 4);
   margin-top: 30px;
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -479,4 +482,8 @@ footer {
 
 .wrapper-item {
   margin-top: 9px;
+}
+
+.wrapper-item:first-child {
+  margin-top: 0px;
 }
